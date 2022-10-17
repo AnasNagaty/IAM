@@ -1,4 +1,6 @@
-src/cloudformation_templates/* linguist-documentation=false
-src/cloudformation_templates/* linguist-vendored=false
+src/* linguist-documentation=false
+src/* linguist-vendored=false
 
-src/cloudformation_templates/*.yml linguist-language=YAML
+*.yml linguist-detectable=true
+
+*.yml linguist-language=YAML
