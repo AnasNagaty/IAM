@@ -1,2 +1,4 @@
 src/* linguist-documentation=false
-src/* linguist-vendored
+src/* linguist-vendored=false
+
+*.yml linguist-language=YAML
