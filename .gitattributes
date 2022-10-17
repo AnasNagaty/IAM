@@ -1,5 +1,4 @@
-src/* linguist-documentation=false
-src/* linguist-vendored=false
+
 
 *.yml linguist-detectable=true
 
