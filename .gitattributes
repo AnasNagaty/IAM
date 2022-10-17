@@ -1,2 +1,2 @@
-project/* linguist-documentation=false
-project/* linguist-vendored
+src/* linguist-documentation=false
+src/* linguist-vendored
