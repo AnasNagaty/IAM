@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "StmtAllow",
+                "Effect": "Allow",
+                "Principal": "*",
+                "Action": "s3:PutObject",
+                "Resource": [
+                    "arn:aws:s3:::file-scanning-upload-275f5670/*.jpg",
+                    "arn:aws:s3:::file-scanning-upload-275f5670/*.png"
+                ]
+            },
+            {
+                "Sid": "StmtDeny",
+                "Effect": "Deny",
+                "Principal": "*",
+                "Action": "s3:PutObject",
+                "NotResource": [
+                    "arn:aws:s3:::file-scanning-upload-275f5670/*.jpg",
+                    "arn:aws:s3:::file-scanning-upload-275f5670/*.png"
+                ]
+            }
+        ]
+}
